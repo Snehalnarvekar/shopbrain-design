@@ -23,11 +23,14 @@ a,
 a:hover{
 	text-decoration: none;
 }
+img{
+    width: 100%;
+}
 .break-all{
 	word-break: break-all;
 }
 .container{
-    max-width: 1140px;
+    max-width: 1140px !important;
 	padding: 0px 15px;
 	margin-right: auto;
 	margin-left: auto;
@@ -52,15 +55,17 @@ a:hover{
     background-color: #FFFFFF;
     border-color: #FFFFFF;
     padding: 9px 19px 12px 23px;
+    margin-left: 10px;
 }
 .button-wrap .btn.btn-login{
     background-color:rgb(0, 0, 0,0.05);
     color: #FFFFFF;  
     padding: 9px 25px 12px 27px;
+    margin-left: 10px;
 }
 .text-button a button {
     border-radius: 6px;
-    font-family: 'Inter ', sans-serif;;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.5px;
@@ -85,7 +90,7 @@ a:hover{
     z-index: 1;
 }
 nav.navbar{
-	padding: 30px 0px;
+	padding: 29px 0px 30px;
 }
 .navbar-brand.logo {
     padding: 0;
@@ -95,7 +100,7 @@ nav.navbar{
 }
 #navbarResponsive li{
     padding: 0;
-    padding-right: 20px;
+    padding-right: 18px;
 }
 ul.navbar-nav li a{
     color: #FFFFFF;
@@ -134,7 +139,7 @@ h1.text_title {
     font-weight: 900;
     padding-bottom: 31px;
 }
-h6.text_content{
+p.text_content{
     color: #FFFFFF;
     font-family:'Lato', sans-serif;
     font-weight: 400;
@@ -142,6 +147,7 @@ h6.text_content{
     line-height: 28px;
     text-align: left;
     padding-bottom: 43px;
+    padding-right: 60px;    
 }
 h2.title-wrapper{
     color: #00344E;
@@ -177,16 +183,18 @@ h5{
     box-shadow: 0 2px 43px 0 rgba(0, 56, 84, 0.22);
     max-width: 416px;
     width: 100%;
-    margin: 39px 0 0 auto;
+    margin: 31px 0 0 auto;
 }
-.demo-card-box .card-header{
+.demo-card-box .card-header {
     color: #0F344E;
     background-color: #FFFFFF;
     font-family: 'Inter', sans-serif;
+    font-weight: 500;
     font-size: 22px;
     letter-spacing: -0.55px;
     line-height: 26px;
     text-align: left;
+    padding: 22px;
 }
 .demo-card-box p.card-text{
     color: #0F344E;
@@ -202,6 +210,9 @@ h5{
     padding: 19px 36px 16px 22px;
     margin-bottom: 20px;
 }
+#ViewMore{
+    padding-top: 11px;
+}
 .demo-card-box .card .col:hover{
     box-shadow: 0 2px 43px 0 rgba(0, 56, 84, 0.22);
 }
@@ -214,11 +225,16 @@ h5{
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    font-weight: 400;
     letter-spacing: -0.4px;
     line-height: 19.36px;
     text-align: center;
-    padding: 20px auto;
+    padding: 19px 20px;
 }
+.demo-card-box .card-footer img{
+    max-width: 26px;
+    margin-left: 8px;
+}    
 .demo-card-box a p.viewmore{
     color: #0F344E;
     font-family: 'Inter', sans-serif;
@@ -231,25 +247,24 @@ h5{
     z-index: 1;
     position: absolute;
     left: 120px;
-    top: 5px;
+    top: 0;
+    max-width: 53px;
 }
 .what-is-shopbrain .right-side.col-md-6{
     padding-top: 30px;
 }
-.shopbrain-wrapper .description{
+.what-is-shopbrain .description{
     padding-top: 30px;
     padding-bottom: 30px;
-}
-h6.text_content span.bold{
-    font-weight: 600;
 }
 #Shapebuilder {
     position: absolute;
     right: -35px;
     top: -50px;
+    max-width:117px ;
 }
 .main_page .what-is-shopbrain{
-    padding-top: 86px;
+    padding-top: 166px;
     padding-bottom: 137px;
 }
 .main_page .value-proposition{
@@ -262,9 +277,10 @@ h6.text_content span.bold{
     position: absolute;
     top: 80px;
     left: -45px;
+    max-width: 189px;
 }
 .value-proposition h3{
-    padding: 10px 0;
+    padding: 15px 0;
     color: #00344E;
     font-family: 'Lato', sans-serif; 
     font-weight: 600;
@@ -272,7 +288,7 @@ h6.text_content span.bold{
     line-height: 25px;
 }
 .value-proposition .content-wrap{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     padding-right: 80px;
 }
 .value-proposition h2.title-wrapper{
@@ -280,20 +296,55 @@ h6.text_content span.bold{
 }
 .value-proposition .blue-key img{
     background-color: #EEF5F8;
-    padding: 10px;
-}
+    padding: 15px 16px;
+    border-radius: 8px;
+    max-width: 70px;
+}    
 .value-proposition .green-key img{
     background-color: #bee7c0;
-    padding: 10px;
+    padding: 15px 16px;
+    border-radius: 8px;
+    max-width: 70px;
 }
 .value-proposition .yellow-key img{
     background-color: #e6dab6;
-    padding: 10px;
+    padding: 15px 16px;
+    border-radius: 8px;
+    max-width: 70px;
 }
 .value-proposition .red-key img{
     background-color: #e2cad0;
-    padding: 10px;
+    padding: 15px 16px;
+    border-radius: 8px;
+    max-width: 70px;
 }
+.carousel-wrapper{
+    width: 100%;
+    padding: 40px 0 89px;
+    background-color: #FFFFFF;
+}
+.carousel-wrapper p{
+    margin-top: 35px;
+    margin-bottom:27px;
+    padding-right: 7px;
+}
+.btn-smart {
+    background-color: #FB0D4A;
+    border-radius: 4px !important;
+    color: #F5F9FC;
+    padding: 15px 28px 15px 33px;
+}
+.carousel-wrapper .carousel-right{
+    padding-right: 72px;
+    padding-left: 47px;
+    padding-top: 144px;
+}
+.carousel-wrapper .testimonial-img{
+    width: 16px;
+    height: 16px;
+}
+
+
 .contact-wrapper{
     padding: 106px 0 118px;
     background-color: #FFFFFF;
@@ -315,6 +366,7 @@ h6.text_content span.bold{
     z-index: 1;
     top: 21px;
     left:40px;
+    max-width: 147px;
 }
 .contact-wrapper .title-wrapper{
     margin-bottom: 25px;
@@ -420,8 +472,11 @@ h6.text_content span.bold{
     column-count: 3;
    column-gap: 40px;
 }
-.brand_wrapper ul.brand-list li {
+.brand_wrapper ul.brand-list li img {
     margin-bottom: 40px;
+    max-width: 80px;
+    width: 100%;
+    max-height: 80px;
 }
 .brand_wrapper p.description.brand_para{
     padding-top: 21px;
@@ -486,10 +541,13 @@ footer .footer-description{
 footer ul.social-media-list {
     list-style: none;
     column-count: 3;
-    column-gap: 11px;
 }
 footer ul.social-media-list li{
     margin-bottom: 11px;
+}
+footer ul.social-media-list img{
+    width: 42px;
+    height: 42px;
 }
 footer .col-md-6.left {
     padding-left: 0;
@@ -508,4 +566,14 @@ footer h5{
     line-height: 40px;
     text-align: left;
     margin-bottom: 20px;
+}
+footer .center .phone{
+    width: 12px;
+    height: 12px;
+    margin-right: 12px;
+}
+footer .center .location{
+    width: 10px;
+    height: 14px;
+    margin-right: 13px;
 }
