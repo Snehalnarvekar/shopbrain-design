@@ -8,7 +8,8 @@
         <link rel="icon" href="images/" type="image/gif">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/f17b18449a.js" crossorigin="anonymous"></script>
     </head>
@@ -132,7 +133,7 @@
                         <h2 class="title-wrapper">Wait till you see our value proposition</h2>
                         <div>
                             <div class="content-wrap">
-                                <div class="blue-key">
+                                <div class="blue-key key-wrap">
                                     <img src="images/room-key-blue.svg" alt="shopbrain-key-image">
                                 </div>
                                 <h3>Improve conversion</h3>
@@ -140,7 +141,7 @@
                                 </p>
                             </div>
                             <div class="content-wrap">
-                                <div class="red-key" >
+                                <div class="red-key key-wrap" >
                                     <img src="images/room-key-1.svg" alt="shopbrain-key-image">
                                 </div>
                                 <h3>Margin safe</h3>
@@ -148,7 +149,7 @@
                                 </p>
                             </div>
                             <div class="content-wrap">
-                                <div class="green-key">
+                                <div class="green-key key-wrap">
                                     <img src="images/room-key-2.svg" alt="shopbrain-key-image">
                                 </div>
                                 <h3>Always learning</h3>
@@ -156,7 +157,7 @@
                                 </p>
                             </div>
                             <div class="content-wrap">
-                                <div class="yellow-key">
+                                <div class="yellow-key key-wrap">
                                     <img src="images/room-key-3.svg" alt="shopbrain-key-image">
                                 </div>
                                 <h3>Deep insights</h3>
@@ -169,103 +170,117 @@
             </div>
         </div>
         <div class="carousel-wrapper"> 
-                <div class="container">  
-                     <!-- top Carousel Indicators -->
-                    <ul class = "carousel-indicator" id="#carousel-indicator">
-                        <li data-target = "#quote-carousel" data-slide-to = "0"> 
-                            <div class="testimonial-item">
-                                <img class="testimonial-img" src="images/icon/red-round-button.svg" alt="">
+            <div class="container">  
+                    <!-- top Carousel Indicators -->
+                <ul id="carousel_indicator" class ="owl-dots">
+                    <li class="owl-dot "> 
+                        <div class="carousel_box">
+                            <div class="left-side">
+                                <img  src="images/icon/red-round-button.svg" alt="">
+                            </div>
+                            <div class="right-side">
                                 <h6>Product Feature Spotlight </h6>
-                            <div>
-                        </li>
-                        <li data-target = "#quote-carousel" data-slide-to= "1" class = "active">
-                            <div class="testimonial-item">
-                                <img class="testimonial-img" src="images/icon/red-round-button.svg" alt="">
+                            </div>    
+                        <div>
+                    </li>
+                    <li class="owl-dot "> 
+                        <div class="carousel_box">
+                            <div class="left-side">
+                                <img  src="images/icon/red-round-button.svg" alt="">
+                            </div>
+                            <div class="right-side">
                                 <h6>Smart Conversion Optimizer</h6>
-                            <div>
-                        </li>
-                        <li data-target = "#quote-carousel" data-slide-to = "2">
-                            <div class="testimonial-item">
-                                <img class="testimonial-img" src="images/icon/red-round-button.svg" alt="">
+                            </div>
+                        <div>
+                    </li>
+                    <li class="owl-dot active"> 
+                        <div class="carousel_box">
+                            <div class="left-side">
+                                <img  src="images/icon/red-round-button.svg" alt="">
+                            </div>
+                            <div class="right-side">
                                 <h6>OmniChannel Where-to-Buy Finder</h6>
-                            <div>
-                        </li>
-                    </ul>       
-                    <div class="row review_quote justify-content-center">
-                        <div class = "carousel slide" data-ride = "carousel" id = "quote-carousel">
-                            <div class = "carousel-inner text-center">
-                                <!-- Quote 1 -->
-                                <div class = "carousel-item">
-                                    <div class = "carousel-item-quote row">
-                                        <div class="carousel-left col-lg-7 col-md-7">
-                                            <div class="image-wrapper">
-                                                <img src="images/carousel-image.svg" alt="Shopbrain">
-                                            </div>
-                                        </div>
-                                        <div class="carousel-right col-lg-5 col-md-5">
-                                            <h2 class="title-wrapper">Smart Conversion Optimizer</h2>
-                                            <p class="description">Through controlled price transparency, Shopbrain’s smart conversion optimization technology automatically demonstrates your pricing competitiveness to consumers resulting in a significant increase in conversion rate without sacrificing your margin.? 
-                                            </p>
-                                            <div class="text-button">
-                                                <a href="javascript:void(0)">
-                                                    <button class="btn btn-smart btn-block">
-                                                        Smart Conversion Optimizer Website
-                                                    </button>
-                                                </a>
-                                            </div>
-                                        </div>  
-                                    </div>
-                                </div>
-                                <!-- Quote 2 -->
-                                <div class = "carousel-item active">
-                                    <div class = "carousel-item-quote row">
-                                        <div class="carousel-left col-lg-7 col-md-7">
-                                            <div class="image-wrapper">
-                                                <img src="images/carousel-image.svg" alt="Shopbrain">
-                                            </div>
-                                        </div>
-                                        <div class="carousel-right col-lg-5 col-md-5">
-                                            <h2 class="title-wrapper">Smart Conversion Optimizer</h2>
-                                            <p class="description">Through controlled price transparency, Shopbrain’s smart conversion optimization technology automatically demonstrates your pricing competitiveness to consumers resulting in a significant increase in conversion rate without sacrificing your margin.? 
-                                            </p>
-                                            <div class="text-button">
-                                                <a href="javascript:void(0)">
-                                                    <button class="btn btn-smart btn-block">
-                                                        Smart Conversion Optimizer Website
-                                                    </button>
-                                                </a>
-                                            </div>
-                                        </div>  
-                                    </div>
-                                </div>
-                                <!-- Quote 3 -->
-                                <div class = "carousel-item ">
-                                    <div class = "carousel-item-quote row">
-                                        <div class="carousel-left col-lg-7 col-md-7">
-                                            <div class="image-wrapper">
-                                                <img src="images/carousel-image.svg" alt="Shopbrain">
-                                            </div>
-                                        </div>
-                                        <div class="carousel-right col-lg-5 col-md-5">
-                                            <h2 class="title-wrapper">Smart Conversion Optimizer</h2>
-                                            <p class="description">Through controlled price transparency, Shopbrain’s smart conversion optimization technology automatically demonstrates your pricing competitiveness to consumers resulting in a significant increase in conversion rate without sacrificing your margin.? 
-                                            </p>
-                                            <div class="text-button">
-                                                <a href="javascript:void(0)">
-                                                    <button class="btn btn-smart btn-block">
-                                                        Smart Conversion Optimizer Website
-                                                    </button>
-                                                </a>
-                                            </div>
-                                        </div>  
-                                    </div>
+                            </div>
+                        <div>
+                    </li>
+                </ul>       
+                <div class = "testimonial_wrap owl-carousel">
+                    <!-- Quote 1 -->
+                    <div class = "testimonial_item">
+                        <div class = "testimonial_quote">
+                            <div class="carousel-left">
+                                <div class="image-wrapper">
+                                    <img src="images/carousel-image.svg" alt="Shopbrain">
                                 </div>
                             </div>
+                            <div class="carousel-right">
+                                <h2 class="title-wrapper">Smart Conversion Optimizer</h2>
+                                <p class="description">Through controlled price transparency, Shopbrain’s smart conversion optimization technology automatically demonstrates your pricing competitiveness to consumers resulting in a significant increase in conversion rate without sacrificing your margin.? 
+                                </p>
+                                <div class="text-button">
+                                    <a href="javascript:void(0)">
+                                        <button class="btn btn-smart btn-block">
+                                            Smart Conversion Optimizer Website
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>  
                         </div>
-                    </div> 
-                    
-                </div>
+                    </div>
+                    <!-- Quote 2 -->
+                    <div class = "testimonial_item">
+                        <div class = "testimonial_quote">
+                            <div class="carousel-left ">
+                                <div class="image-wrapper">
+                                    <img src="images/carousel-image.svg" alt="Shopbrain">
+                                </div>
+                            </div>
+                            <div class="carousel-right ">
+                                <h2 class="title-wrapper">Smart Conversion Optimizer</h2>
+                                <p class="description">Through controlled price transparency, Shopbrain’s smart conversion optimization technology automatically demonstrates your pricing competitiveness to consumers resulting in a significant increase in conversion rate without sacrificing your margin.? 
+                                </p>
+                                <div class="text-button">
+                                    <a href="javascript:void(0)">
+                                        <button class="btn btn-smart btn-block">
+                                            Smart Conversion Optimizer Website
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <!-- Quote 3 -->
+                    <div class = "testimonial_item">
+                        <div class = "testimonial_quote ">
+                            <div class="carousel-left ">
+                                <div class="image-wrapper">
+                                    <img src="images/carousel-image.svg" alt="Shopbrain">
+                                </div>
+                            </div>
+                            <div class="carousel-right ">
+                                <h2 class="title-wrapper">Smart Conversion Optimizer</h2>
+                                <p class="description">Through controlled price transparency, Shopbrain’s smart conversion optimization technology automatically demonstrates your pricing competitiveness to consumers resulting in a significant increase in conversion rate without sacrificing your margin.? 
+                                </p>
+                                <div class="text-button">
+                                    <a href="javascript:void(0)">
+                                        <button class="btn btn-smart btn-block">
+                                            Smart Conversion Optimizer Website
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div> 
+                <div class="owl-dots" id="carousel-indicator">
+                    <button role="button" class="owl-dot"><span></span></button>
+                    <button role="button" class="owl-dot"><span></span></button>
+                    <button role="button" class="owl-dot active"><span></span></button>
+                    <button role="button" class="owl-dot"><span></span></button>
+                    <button role="button" class="owl-dot"><span></span></button>
+                </div>      
             </div>
+        </div>
         <div class="menu-wrapper">
             <div class="features-wrapper"> 
                 <div class="container">
@@ -319,6 +334,90 @@
                     </div>
                 </div>
             </div>
+
+            <div class="review-wrapper"> 
+                <div class="container">
+                    <div class="carousel_title" >
+                        <h2 class="title-wrapper">Our customers say amazing things about us! </h2>
+                    </div>      
+                    <div class="quote-carousel owl-carousel " id="quote-carousel">
+                        <ul>
+                        <li class = "testimonial_item col-sm-5">
+                            <div class = "testimonial_quote">
+                                <p class ="testimonial-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                                </p>
+                            </div>
+                            <div class="author_box">
+                                <div class="author-left">
+                                    <img class="carousel-img" src="images/icon/author_1.svg" alt="author-image">
+                                </div>
+                                <div class="author-right">
+                                    <h6 >Cha Ji-Huns</h6>
+                                    <p>Co-founder of Forpeople</p>
+                                </div>
+                            <div>
+                        </div>
+                        <li class ="testimonial_item col-sm-5">
+                            <div class ="testimonial_quote">
+                                <p class ="testimonial-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                </p>
+                            </div>
+                            <div class="author_box">
+                                <div class="author-left">
+                                    <img class="carousel-img" src="images/icon/author_2.svg" alt="author-image">
+                                </div>
+                                <div class="author-right">
+                                    <h6 >Henry Itondo</h6>
+                                    <p>Co-founder of Source DS</p>
+                                </div>
+                            </div>
+                        </li>  
+                        <li class = "testimonial_item col-sm-5">
+                            <div class = "testimonial_quote">
+                                 <p class="testimonial-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>    
+                            </div>
+                            <div class="author_box">
+                                <div class="author-left">
+                                    <img class="carousel-img" src="images/icon/author_3.svg" alt="author-image">
+                                </div>
+                                <div class="author-right">
+                                    <h6>Cha Ji-Huns</h6>
+                                    <p>Co-founder of Forpeople</p>
+                                </div> 
+                            <div>
+                            </li>
+                        <li class = "testimonial_item col-sm-5">
+                            <div class = "testimonial_quote">
+                                 <p class="testimonial-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>    
+                            </div>
+                            <div class="author_box">
+                                <div class="author-left">
+                                    <img class="carousel-img" src="images/icon/author_3.svg" alt="author-image">
+                                </div>
+                                <div class="author-right">
+                                    <h6>Cha Ji-Huns</h6>
+                                    <p>Co-founder of Forpeople</p>
+                                </div> 
+                            <div>
+                        </li>
+                    </ul>
+                    <!-- Carousel Buttons Next/Prev -->
+                    <a data-slide = "prev" href = "#quote-carousel" class = "left carousel-control"><i class = "fa fa-chevron-left"> </i> </a>
+                    <a data-slide = "next" href = "#quote-carousel" class = "right carousel-control"><i class = "fa fa-chevron-right"></i></a>
+                     
+                </div>
+                    <div class="owl-dots" id="carousel-indicator">
+                        <button role="button" class="owl-dot"><span></span></button>
+                        <button role="button" class="owl-dot"><span></span></button>
+                        <button role="button" class="owl-dot active"><span></span></button>
+                        <button role="button" class="owl-dot"><span></span></button>
+                        <button role="button" class="owl-dot"><span></span></button>
+                    </div>
+                </div> 
+            </div> 
+
             <div class="brand_wrapper"> 
                 <div class="container">
                     <div class="row justify-content-between">
@@ -473,8 +572,65 @@
     <!-- Footer -->
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
         <script src="./js/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.testimonial_wrap.owl-carousel').owlCarousel({
+                    loop:true,
+                    margin:10,
+                    nav:false,
+                    autoplay:false,
+                    center:true,
+                    autoplayTimeout:3000,
+                    autoplayHoverPause:true,
+                    dots:true,
+                    dotsContainer: '#carousel_indicator',
+                    responsive:{
+                        0:{
+                            items:1,
+                            dotsEach: 1,
+                        },
+                        768:{
+                            dotsEach: 3,
+                            items:1	
+                        }
+                    }
+                });
+                $('.owl-dot').click(function () {
+                    $('.testimonial_wrap.owl-carousel').trigger('to.owl.carousel', [$(this).index(), 300]);
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $('.quote-carousel.owl-carousel').owlCarousel({
+                    loop:true,
+                    margin:10,
+                    nav:false,
+                    autoplay:false,
+                    center:true,
+                    autoplayTimeout:2000,
+                    autoplayHoverPause:true,
+                    dots:true,
+                    dotsContainer: '#quote_indicator',
+                    responsive:{
+                        0:{
+                            items:1,
+                            dotsEach: 1,
+                        },
+                        768:{
+                            dotsEach: 3,
+                            items:1	
+                        }
+                    }
+                });
+                $('.owl-dot').click(function () {
+                    $('.quote-carousel.owl-carousel').trigger('to.owl.carousel', [$(this).index(), 300]);
+                });
+            });
+        </script>
     </body>
 </html>    
